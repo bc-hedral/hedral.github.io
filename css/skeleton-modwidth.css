@@ -49,6 +49,13 @@
   transform: translateY(-50%);
 }
 
+/* For devices larger than 200px */
+@media (min-width: 200px) {
+  .container {
+    width: 32%;
+    padding: 0; }
+}
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
